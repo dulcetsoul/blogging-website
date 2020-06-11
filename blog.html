@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<title>Girl code</title>
 	<link rel="stylesheet" type="text/css" href="blog.css">
+	 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 <body>
 	<nav>
@@ -14,9 +15,11 @@
 	</nav>
 
 	<div id="home">
-		<div class="image">
-		</div>
+		<div class="image"></div>
+	</div>
 
+	
+	<div id="topblog">	
 		<article>
 			<h1 class="title">Learning to write Javascript</h1>
 			<p class="text">Today, I learned to write code in Javascript. It is so new and different compared to Python! I love it so much.</p>
@@ -25,33 +28,33 @@
 		<article>
 			<h1 class="title">My First Blog Post!</h1>
 			<p class="text">Hi everyone, I am so glab to be posting my first blog post on this website.</p>
-		</article>		
-	
+		</article>	
 	</div>
 
+	
 	<div id="add">
 		<div class="bg">
-			<form>
 			
-					<label>Your name :<br>
-					<input type="text" name="your_name"><br>
+					<label>Your name :<br></label>
+						<input type="text" id="name" name="your_name" required /><br>
+					
 				
 				
-					<label>Title :<br>
-					<input type="text" name="title"><br>
+					<label>Title :<br></label>
+					<input type="text" id="title" name="title" required /><br>
+					
 				
 					
-					<label>Enter your text here : <br>
-					<textarea id="txt"></textarea>
+					<label>Enter your text here : <br></label>
+					<textarea id="txt" required /></textarea>
+					
 
-					<button class="submit">Submit</button>
-					
-			</form>
+					<button id="submit">Submit</button>	
 
 		</div>
 	</div>
 
-	<script src="main.js"></script>
+	<script src="blog.js"></script>
 
 
 </body>

@@ -44,11 +44,11 @@ li > a{
 }
 
 article{
-	
 	margin:20px auto;
 	width:60%;
 	padding: 20px;
 	box-shadow: 0 0 5px grey;
+	text-align: justify;
 }
 .text,.title{
 	margin:10px;
@@ -69,12 +69,8 @@ article{
 	padding-top:35px;
 	padding-bottom:35px;
 	width: 650px;
-	float: left;
 	left: 50%;
-	position: absolute;
-  	margin-top:30px;
-	margin-left: -340px;
-	margin-bottom: 40px;
+  	margin : 40px auto;
   	-moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     height: 450px;
@@ -101,7 +97,7 @@ textarea{
 	resize: none;
 }
 
-.submit{
+#submit{
 	width:100px;
 	height:40px;
 	background-color: white;
